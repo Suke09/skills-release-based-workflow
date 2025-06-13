@@ -7,7 +7,7 @@
       window[vendors[x] + "CancelAnimationFrame"] ||
       window[vendors[x] + "CancelRequestAnimationFrame"];
   }
-//
+//ああ
   if (!window.requestAnimationFrame)
     window.requestAnimationFrame = function (callback, element) {
       var currTime = new Date().getTime();
